@@ -8,7 +8,7 @@ const Hero = () => (
                 <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
                 <p className={`${styles.paragraph} ml-2`}>
                 <span className='text-white'>20%</span> Discount for {" "}
-                <span className='text-white'>1 month</span> Account
+                <span className='text-white'>1 Month</span> Account
                 </p>
 
             </div>
@@ -16,7 +16,7 @@ const Hero = () => (
             <div className='flex flex-row justify-between items-center w-full'>
                 <h1 className=' flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
                     The Next <br className='sm:block hidden'/> {" "}
-                    <span className='text-gradient'>Generation</span> <br />
+                    <span className='text-gradient'>Generation</span> {" "}
                 </h1>
                 <div className='ss:flex hidden md:mr-4 mr-0'>
                     <GetStarted />
@@ -34,7 +34,7 @@ const Hero = () => (
             
             <div  className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"/>
 
-            <div  className="absolute z-[1] w-[80%] h-[80%] roundeded-full bottom-40 white__gradient"/>
+            <div  className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"/>
             
             <div  className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
 
